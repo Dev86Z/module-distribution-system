@@ -7,11 +7,11 @@
 </ul>
 <div class="paper-box" align="center">
   <div class="submit-form">
-  	<form action="confirm.php" method="POST">	
+  	<form action="create2.php" method="POST">	
   	  <label for="">email</label><br>
       <input type="text" id="email" name="email"><br>
       <label for="content">Content:</label><br>
-      <textarea id="content" name="" rows="4" cols="50"></textarea>
+      <textarea id="content" name="content" name="" rows="4" cols="50"></textarea>
   		<input class="submit-search" type="submit" id="btn" name="btn" value="enter" style=""><br>  	  
   	</form>
   </div>

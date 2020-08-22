@@ -19,6 +19,6 @@
 		$file2 = fopen("modules/".$filename.".php", "w");
 
 		fwrite($file1, $content);
-		fwrite($file2, " $email = ".$email.";\n $code = ".$filename.";");
+		fwrite($file2, ' $email = '.$email.';'."\n".' $code = '.$filename.';');
 	}
 ?>
